@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+
+    <h1>Admission Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label>
+            <input type="text" name="fullname" required maxlength="50"><br><br>
+
+            <label>Email Address:</label>
+            <input type="email" name="email" required><br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+            <br><br>
+
+            <label>Contact Number:</label>
+            <input type="text" name="phone" required maxlength="15"><br><br>
+
+            <label>Permanent Address:</label>
+            <input type="text" name="permanent_address" required maxlength="120"><br><br>
+
+            <label>Present Address:</label>
+            <input type="text" name="present_address" required maxlength="120"><br><br>
+
+            <label>Father's Name:</label>
+            <input type="text" name="father_name" required maxlength="60"><br><br>
+
+            <label>Father's Occupation:</label>
+            <input type="text" name="father_occupation" required maxlength="80"><br><br>
+
+            <label>Mother's Name:</label>
+            <input type="text" name="mother_name" required maxlength="60"><br><br>
+
+            <label>Mother's Occupation:</label>
+            <input type="text" name="mother_occupation" required maxlength="80"><br><br>
+
+            <label>Guardian Contact Number:</label>
+            <input type="text" name="guardian_contact" required maxlength="15"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <h3>SSC Information</h3>
+
+            <label>SSC Institute Name:</label>
+            <input type="text" name="ssc_institute" required maxlength="100"><br><br>
+
+            <label>SSC Board:</label>
+            <select name="ssc_board" required>
+                <option value="" disabled selected>Select Board</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Comilla">Comilla</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Jessore">Jessore</option>
+                <option value="Mymensingh">Mymensingh</option>
+            </select>
+            <br><br>
+
+            <label>SSC Group:</label>
+            <select name="ssc_group" required>
+                <option value="" disabled selected>Select Group</option>
+                <option value="Science">Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Humanities">Humanities</option>
+            </select>
+            <br><br>
+
+            <label>SSC GPA:</label>
+            <input type="text" name="ssc_gpa" required maxlength="4"><br><br>
+
+
+            <h3>HSC Information</h3>
+
+            <label>HSC Institute Name:</label>
+            <input type="text" name="hsc_institute" required maxlength="100"><br><br>
+
+            <label>HSC Board:</label>
+            <select name="hsc_board" required>
+                <option value="" disabled selected>Select Board</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Comilla">Comilla</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Jessore">Jessore</option>
+                <option value="Mymensingh">Mymensingh</option>
+            </select>
+            <br><br>
+
+            <label>HSC Group:</label>
+            <select name="hsc_group" required>
+                <option value="" disabled selected>Select Group</option>
+                <option value="Science">Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Humanities">Humanities</option>
+            </select>
+            <br><br>
+
+            <label>HSC GPA:</label>
+            <input type="text" name="hsc_gpa" required maxlength="4"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>University Application Details</legend>
+
+            <label>Preferred Department:</label>
+            <select name="department" required>
+                <option value="" disabled selected>Select Department</option>
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="EEE">Electrical & Electronic Engineering</option>
+                <option value="BBA">Business Administration</option>
+                <option value="ENG">English</option>
+                <option value="LAW">Law</option>
+                <option value="PHR">Pharmacy</option>
+            </select>
+            <br><br>
+
+            <label>Preferred Campus:</label>
+            <select name="campus">
+                <option value="" disabled selected>Select Campus</option>
+                <option value="Main">Main Campus</option>
+                <option value="City">City Campus</option>
+                <option value="Uttara">Uttara Campus</option>
+            </select>
+            <br><br>
+
+            <label>Quota:</label>
+            <select name="quota">
+                <option value="None" selected>None</option>
+                <option value="Freedom Fighter">Freedom Fighter</option>
+                <option value="Tribal">Tribal</option>
+                <option value="Special Needs">Special Needs</option>
+            </select>
+            <br><br>
+
+            <label>Upload Photo:</label>
+            <input type="file" name="photo" required><br><br>
+
+            <label>Upload Signature:</label>
+            <input type="file" name="signature" required><br><br>
+
+            <label>Upload Transcript:</label>
+            <input type="file" name="transcript" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
