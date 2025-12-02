@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Contact Widget</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            height: 2000px;
+            font-family: Arial, sans-serif;
+            background: #eef4ff;
+        }
+
+        .contact-widget{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #003e7e;
+            color: white;
+            padding: 15px 18px;
+            border-radius: 10px;
+            border: 2px solid #4a80ff;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: 0.3s ease;
+        }
+
+        .contact-widget:hover{
+            background-color: #4a80ff;
+        }
+
+        .contact-widget h3{
+            margin: 0 0 8px 0;
+        }
+
+        .contact-widget p{
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .contact-widget a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-widget a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 style="padding: 20px;">Scroll Down to See the Fixed Widget</h1>
+
+    <div class="contact-widget">
+        <h3>Contact Us</h3>
+        <p>📞 +8801640457584</p>
+        <p>
+            ✉ <a href="mailto:almassifat10984@gmail.com">
+                almassifat10984@gmail.com
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>

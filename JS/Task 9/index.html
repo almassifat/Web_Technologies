@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="brand">
+        <h1>Hasin Almas Sifat</h1>
+        <p id="greetingText"></p>
+    </div>
+
+    <nav>
+        <a href="#" class="nav-link active" data-target="about">About</a>
+        <a href="#" class="nav-link" data-target="projects">Projects</a>
+        <a href="#" class="nav-link" data-target="contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle">Switch to Dark Mode</button>
+</header>
+
+<main>
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>
+            I am a Machine Learning Engineer and researcher with experience in NLP, computer vision,
+            and deep learning. I enjoy designing intelligent systems that solve real-world problems
+            in accessibility, sustainability, and education.
+        </p>
+        <p>
+            This interactive portfolio showcases my work and provides a quick way for recruiters to
+            understand my skills, projects, and research interests.
+        </p>
+    </section>
+
+    <section id="projects" class="content-section hidden">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Image-to-Bangla Captioning:</strong>
+                A transformer-based vision-language model that generates Bangla descriptions from images.
+            </li>
+            <li>
+                <strong>BrainXAI:</strong>
+                Explainable EEG-based emotion recognition using deep neural networks and XAI methods.
+            </li>
+            <li>
+                <strong>Power Grid Risk Prediction:</strong>
+                Deep learning pipeline to predict power grid disruption from solar storm data.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="content-section hidden">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name">
+                <div class="error-message" id="nameError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email">
+                <div class="error-message" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="3"></textarea>
+                <div class="error-message" id="messageError"></div>
+            </div>
+
+            <button type="submit" id="submitBtn">Send Message</button>
+            <p id="successMessage" class="success-message"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Hasin Almas Sifat · Interactive Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

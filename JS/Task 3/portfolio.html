@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Software Engineer Intern Hasin Almas Sifat">
+    <meta name="keywords" content="machine learning, AI, NLP, deep learning, computer vision, research">
+    <meta name="author" content="Hasin Almas Sifat">
+    <title>Portfolio - Hasin Almas Sifat</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hasin Almas Sifat</h1>
+        <h3> Machine Learning Engineer & Researcher</h3>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#research">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="themeToggle">Dark / Light Mode</button>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a Machine Learning Engineer with expertise in Natural Language Processing, Computer Vision,
+                and Explainable AI. My work includes building transformer-based models, deep neural architectures,
+                and scalable ML pipelines. I enjoy applying AI to solve real-world challenges, especially those related 
+                to accessibility, health, sustainability, and education.
+            </p>
+            <p>
+                I am experienced with Python, TensorFlow, PyTorch, Keras, Hugging Face, scikit-learn, OpenCV, NumPy,
+                Pandas, and Git. I have published multiple research papers, and one of my works received the
+                <strong>Best Paper Award at CITIC 2025</strong>.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Achievements</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Sc. in Computer Science and Engineering</td>
+                        <td>American International University-Bangladesh (AIUB)</td>
+                        <td>2022 – Present</td>
+                        <td>Dean's List (2022, 2023, 2024)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Image-to-Bangla Text Generation (2025):</strong>
+                    ViT encoder + Transformer decoder model with gated cross-attention fusion to generate accurate 
+                    Bangla captions from images.
+                </li>
+                <li>
+                    <strong>BERT Variant Analysis with PES (2025):</strong>
+                    Performance comparison of BERT, RoBERTa, DistilBERT, ALBERT, and XLNet using the 
+                    Performance Efficiency Score metric.
+                </li>
+                <li>
+                    <strong>BrainXAI Model (2025):</strong>
+                    An explainable neural network for EEG-based emotion recognition, using a 2548–64–3 fully 
+                    connected architecture and XAI interpretability tools.
+                </li>
+                <li>
+                    <strong>Power Grid Disruption Prediction (2024–2025):</strong>
+                    Deep-learning model to predict infrastructure damage risk using solar storm data.
+                </li>
+            </ul>
+        </section>
+
+        <section id="research">
+            <h2>Research Publications</h2>
+            <ul>
+                <li>
+                    <strong>Using Deep Learning Techniques for Image-to-Bangla Natural Language Text Generation 
+                    to Improve Mobility for the Visually Impaired in Bangladesh</strong> — CITIC 2025 (Best Paper Award)
+                </li>
+                <li>
+                    <strong>MagnoStromNet: A Dual-Stream Attention-Based Deep Learning Framework for Predicting 
+                    Power Grid Disruption Risk from Solar Storm Events</strong> — ICSC 2025
+                </li>
+                <li>
+                    <strong>Exploring the Barriers to Undergraduate Student Engagement with Research Papers: 
+                    A Machine Learning Approach</strong> — MECON 2025
+                </li>
+                <li>
+                    <strong>Screen Dependency and Brain Health: Investigating the Effects of Technology on 
+                    Cognitive Performance</strong> — UCICS 2025
+                </li>
+                <li>
+                    <strong>Machine Learning for Predicting Battery Health and Remaining Useful Life: 
+                    Advancing Sustainable Practices in a Circular Economy</strong> — NMC BUET 2024
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p><strong>Phone:</strong> +8801640457584</p>
+            <p><strong>Email:</strong> hasin.almas.sifat@gmail.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/hasin-almas-sifat</p>
+            <p><strong>GitHub:</strong> github.com/almassifat</p>
+
+            <form id="contact-form">
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value="research">Research Collaboration</option>
+                        <option value="ml-project">Machine Learning Project</option>
+                        <option value="conference">Conference/Publication</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h4>&copy; 2025 Hasin Almas Sifat</h4>
+        <h4>Email: hasin.almas.sifat@gmail.com</h4>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

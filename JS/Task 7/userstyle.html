@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Style Control Panel</title>
+    <link rel="stylesheet" href="style-panel.css">
+</head>
+<body>
+
+<header>
+    <h1>Dynamic Style Control Panel</h1>
+</header>
+
+<main>
+    <section>
+        <p id="sampleText">
+            This is a sample paragraph used to demonstrate dynamic style manipulation.
+            Use the buttons below to change its appearance.
+        </p>
+    </section>
+
+    <section>
+        <button class="control-button" onclick="changeBackgroundColor()">Change Background Color</button>
+        <button class="control-button" onclick="increaseFontSize()">Increase Font Size</button>
+        <button class="control-button" onclick="centerText()">Center Text</button>
+        <button class="control-button reset-button" onclick="resetStyle()">Reset Style</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Style Control Panel</p>
+</footer>
+
+<script src="style-panel.js"></script>
+</body>
+</html>

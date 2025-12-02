@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Registration Form</title>
+    <link rel="stylesheet" href="dynamic-form.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Registration Form</h1>
+</header>
+
+<main>
+    <section>
+        <form>
+            <div class="form-group">
+                <label for="userType">Select User Type</label>
+                <select id="userType">
+                    <option value="" selected disabled>Select type</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="rollField">
+                <label for="roll">Roll Number</label>
+                <input type="text" id="roll" name="roll">
+            </div>
+
+            <div class="form-group" id="departmentField">
+                <label for="department">Department</label>
+                <input type="text" id="department" name="department">
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Smart Registration System</p>
+</footer>
+
+<script src="dynamic-form.js"></script>
+</body>
+</html>

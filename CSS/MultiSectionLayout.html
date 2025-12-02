@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Portal Layout - Lab Task</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef4ff;
+            padding: 20px;
+        }
+
+        .container {
+            white-space: nowrap;
+        }
+
+        .sidebar, .main-content, .advertisement {
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            padding: 15px;
+            border: 2px solid #003e7e;
+            margin-right: -4px; /* removes inline-block spacing */
+            min-height: 300px;
+            color: white;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #2c3e50;
+        }
+
+        .main-content {
+            width: 60%;
+            background-color: #34495e;
+        }
+
+        .advertisement {
+            width: 20%;
+            background-color: #2ecc71;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>Categories</h2>
+            <p>Technology</p>
+            <p>Science</p>
+            <p>AI & Robotics</p>
+            <p>Health</p>
+            <p>Education</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Latest Articles</h2>
+            <p>Artificial Intelligence is transforming industries across the globe. In 2025, AI-driven automation and generative AI tools have become integral to business and daily life.</p>
+            <p>Space exploration is advancing rapidly with private companies and national agencies collaborating on interplanetary missions.</p>
+            <p>Climate change mitigation technologies are being adopted faster than ever, helping reduce carbon footprints worldwide.</p>
+        </div>
+
+        <div class="advertisement">
+            <h2>Sponsored</h2>
+            <p>Learn AI with our 2025 Bootcamp!</p>
+            <p>Upgrade your skills in Web Development.</p>
+            <p>Subscribe to TechNews Daily.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
